@@ -2,7 +2,7 @@
 <html>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 <body>
-    <h1 align:center>WEBSITE TO DISPLAY FULL NAME!</h1>
+    <h1 align:center> DISPLAY FULL NAME</h1>
 <div ng-app="myApp" ng-controller="myCtrl">
     First Name: <input type="text" ng-model="firstName"><br>
     Last Name: <input type="text" ng-model="lastName"><br>
@@ -10,7 +10,7 @@
     Full Name: {{firstName + " " + lastName}}
 </div>
 
-<p style="background-color:powderblue;"></p>
+<p style="background-color: rgb(13, 160, 180);"></p>
 <script>
 var app = angular.module("myApp", []);
 app.controller("myCtrl", function($scope) {
